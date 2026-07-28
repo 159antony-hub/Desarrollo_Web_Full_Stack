@@ -50,6 +50,7 @@ main {
 .content div {
   display: flex;
   gap: 14px;
+  align-items: center;
 }
 .content span {
   font-family: "Fraunces", serif;
