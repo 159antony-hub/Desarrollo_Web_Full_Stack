@@ -1,0 +1,40 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Public Sans", sans-serif;
+}
+header {
+  background-color: hsl(0, 100%, 100%);
+}
+.nav_var {
+  padding: 20px 100px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+.nav_var__menu ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  font-size: 12px;
+}
+.nav_var__menu ul li {
+  gap: 10px;
+  color: hsl(233, 8%, 62%);
+}
+.nav_var__button button {
+  background: #3fbab2;
+  background: linear-gradient(
+    194deg,
+    rgba(63, 186, 178, 1) 0%,
+    rgba(50, 210, 93, 1) 100%
+  );
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  color: hsl(0, 100%, 100%);
+  font-size: 12px;
+}
+.content__prim {
+  background-color: hsl(0, 0%, 98%);
+}
